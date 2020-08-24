@@ -7,7 +7,7 @@
   },  
   { 
     "id": 1,
-    "icon": "fa fa-file-text",
+    "icon": "fa fa-play-circle",
     "slug": "introduccion",
     "title": "Introducción",
     "breadcrumb": ["Inicio","introduccion"],
@@ -68,7 +68,7 @@
         "anchor": "distribucion"
       },
       {
-        "icon": "fa fa-file-text",
+        "icon": "fa fa-play-circle",
         "slug": "sustancia",
         "title": "2.3 La tabla periódica",
         "anchor": "tabla"
@@ -116,11 +116,5 @@
     "title": "4. Química del carbono",
     "breadcrumb": ["Inicio","quimica"],
     "path": "pages/4-tema.html"
-  },
-  {
-    "icon": "fa fa-question-circle",
-    "slug": "actividad-1",
-    "title": "Actividad didáctica",
-    "path": "pages/actividad-1.html"
-  } 
+  }
 ]
