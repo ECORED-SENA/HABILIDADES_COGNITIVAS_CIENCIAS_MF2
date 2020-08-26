@@ -301,7 +301,6 @@ ol.lista > li.mas:before {
 }
 
 .texto1{
-    font-size: 40px;
     color: #1EC488;
 }
 
@@ -318,4 +317,9 @@ ol.lista > li.mas:before {
 .table2{
     background-color: #1EC488 !important;
     color: #082143 !important;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
 }

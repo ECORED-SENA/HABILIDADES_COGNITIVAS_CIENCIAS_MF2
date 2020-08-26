@@ -14,6 +14,12 @@ mixin pageHeader(tituloTema, srcImagen, pagina)
 
                 if pagina == 'main'
 
+                    .keywords
+                        span.badge.badge-pill.badge-light.mr-2 #partícula
+                        span.badge.badge-pill.badge-light.mr-2 #electrón
+                        span.badge.badge-pill.badge-light.mr-2 #neutrón
+                        span.badge.badge-pill.badge-light.mr-2 #protón
+
                     .barra-dots.mt-5
                         img.img-fluid(src='assets/images/header/icon_dots.svg', alt='alt')
 
@@ -182,20 +188,7 @@ mixin creditosFooter(ruta)
                     p.footer-texto
                         span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
                         br
-                        span.text-small Regional Santander                   
-
-                    h4.footer-subtitulo-2.mt-5
-                        .fa.fa-caret-right.mr-2
-                        | Gestores de repositorio
-                    
-                    p.footer-texto
-                        | #[strong Kely Alejandra Quiros Duarte ]<br/>   
-                        span.text-small Administrador repositorio de contenidos y gestores de repositorio.<br/>
-
-                    p.footer-texto
-                        span.text-small.text-uppercase Centro de comercio y servicios  
-                        br
-                        span.text-small Regional Tolima
+                        span.text-small Regional Santander
 
                 .col-12.col-md-2  
                     .d-flex.flex-column.justify-content-center
