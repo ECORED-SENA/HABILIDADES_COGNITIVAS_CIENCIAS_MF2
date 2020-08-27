@@ -281,23 +281,33 @@ ol.lista > li.mas:before {
     }
 }
 
-.recuadro1{
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 10px;
+.subtitulo-guion2 {
+    h2,h3 {
+        overflow: hidden;
+        font-weight: 700;
+    }
+
+    h2:after,h3:after {
+        content:"";
+        display: inline-block;
+        height: 0.5em;
+        vertical-align: bottom;
+        width: 100%;
+        margin-right: -100%;
+        margin-left: 10px;
+        border-top: 1px solid #1EC488;
+    }
 }
 
 .arrow1{
-    background-color: #082143;
-    border-radius: 10px;
+    background-color: #1EC488;
     h3{
-        font-size: 20px;
-        color: #1EC488;
+        color: #FFFFFF;
     }
 }
 
 .arrow1::before{
-    border-color: #082143 transparent transparent transparent;
+    border-color: #1EC488 transparent transparent transparent;
 }
 
 .texto1{
