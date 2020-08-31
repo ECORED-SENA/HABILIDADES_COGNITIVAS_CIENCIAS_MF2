@@ -40,6 +40,12 @@
         "anchor": "separacion"
       },
       {
+        "icon": "fa fa-play-circle",
+        "slug": "materia",
+        "title": "El arcoiris",
+        "anchor": "arcoiris"
+      },
+      {
         "icon": "fa fa-file-text",
         "slug": "materia",
         "title": "1.4 Propiedades de la materia",
