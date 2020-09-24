@@ -36,11 +36,14 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('text', 'Introducción', 'main.html#page/introduccion/')
-                                    +navTemaItem('1', 'Materia', 'main.html#page/materia/')
-                                    +navTemaItem('2', 'Sustancia', 'main.html#page/sustancia/')
-                                    +navTemaItem('3', 'Formación de compuestos', 'main.html#page/formacion/')
-                                    +navTemaItem('4', 'Química del carbono', 'main.html#page/quimica/')
+                                    +navTemaItem('text', 'Introducción', '#introduccion')
+                                    +navTemaItem('1', 'Materia', '#tema-1')
+                                    +navTemaItem('2', 'Sustancia', '#tema-2')
+                                    +navTemaItem('3', 'Formación de compuestos', '#tema-3')
+                                    +navTemaItem('4', 'Química del carbono', '#tema-4')
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('folder', 'Material complementario', '#anexos')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
         section#mainContent         
             #introduccion
